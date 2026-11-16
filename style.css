@@ -1,0 +1,309 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #eef5fb;
+
+    color: #172b3a;
+
+}
+
+.page {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.topbar {
+
+    height: 75px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 8%;
+
+    gap: 12px;
+
+    background: white;
+
+    font-size: 19px;
+
+    font-weight: bold;
+
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+
+}
+
+.logo, .telegram-icon {
+
+    background: #229ED9;
+
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.logo {
+
+    width: 40px;
+
+    height: 40px;
+
+    font-size: 21px;
+
+}
+
+.hero {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 55px 20px;
+
+    text-align: center;
+
+}
+
+.telegram-icon {
+
+    width: 75px;
+
+    height: 75px;
+
+    font-size: 35px;
+
+    margin-bottom: 22px;
+
+}
+
+h1 {
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    margin-bottom: 15px;
+
+    color: #152d40;
+
+}
+
+.hero > p {
+
+    color: #718096;
+
+    max-width: 430px;
+
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+
+}
+
+.message-card {
+
+    background: white;
+
+    width: 100%;
+
+    max-width: 460px;
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    text-align: left;
+
+    box-shadow: 0 12px 40px rgba(30,70,100,0.09);
+
+}
+
+.message-card h2 {
+
+    font-size: 23px;
+
+    margin-bottom: 8px;
+
+}
+
+.subtitle {
+
+    color: #8996a3;
+
+    font-size: 14px;
+
+    margin-bottom: 24px;
+
+}
+
+label {
+
+    display: block;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    margin-bottom: 10px;
+
+}
+
+textarea {
+
+    width: 100%;
+
+    min-height: 140px;
+
+    border: 1px solid #dce5ed;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    font-family: inherit;
+
+    font-size: 15px;
+
+    outline: none;
+
+    resize: vertical;
+
+}
+
+textarea:focus {
+
+    border-color: #229ED9;
+
+    box-shadow: 0 0 0 3px rgba(34,158,217,0.1);
+
+}
+
+button {
+
+    width: 100%;
+
+    padding: 16px;
+
+    margin-top: 17px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #229ED9;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 12px;
+
+}
+
+button:hover {
+
+    background: #168ac0;
+
+}
+
+button:disabled {
+
+    opacity: 0.6;
+
+    cursor: not-allowed;
+
+}
+
+#status {
+
+    margin-top: 15px;
+
+    font-size: 14px;
+
+    text-align: center;
+
+}
+
+.secure-note {
+
+    text-align: center;
+
+    color: #8996a3;
+
+    font-size: 12px;
+
+    margin-top: 22px;
+
+}
+
+footer {
+
+    text-align: center;
+
+    padding: 22px;
+
+    color: #8795a3;
+
+    font-size: 12px;
+
+}
+
+@media (max-width: 500px) {
+
+    h1 {
+
+        font-size: 34px;
+
+    }
+
+    .message-card {
+
+        padding: 23px 18px;
+
+    }
+
+    .topbar {
+
+        padding: 0 20px;
+
+    }
+
+}
